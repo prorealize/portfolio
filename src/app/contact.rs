@@ -17,24 +17,28 @@ pub fn contact() -> Html {
   >
     {"Have Any Questions?"}
   </h4>
-  <form class="mx-auto w-full pt-10 sm:w-3/4">
+  <form class="mx-auto w-full pt-10 sm:w-3/4" action="https://formspree.io/f/mwkdolgl" method="POST">
     <div class="flex flex-col md:flex-row">
       <input
         class="mr-3 w-full rounded border-grey-50 px-4 py-3 font-body text-black md:w-1/2 lg:mr-5"
         placeholder="Name"
+        name="name"
         type="text"
         id="name"
       />
       <input
         class="mt-6 w-full rounded border-grey-50 px-4 py-3 font-body text-black md:mt-0 md:ml-3 md:w-1/2 lg:ml-5"
         placeholder="Email"
-        type="text"
+        name="email"
+        type="email"
         id="email"
       />
     </div>
     <textarea
       class="mt-6 w-full rounded border-grey-50 px-4 py-3 font-body text-black md:mt-8"
       placeholder="Message"
+      name="message"
+      type="message"
       id="message"
       cols="30"
       rows="10"

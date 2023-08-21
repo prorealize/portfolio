@@ -27,7 +27,7 @@ pub fn home() -> Html {
                                     </div>
                                     // Social Media Links
                                     <div class="flex items-center justify-center pt-5 pl-2 sm:justify-start sm:pt-0">
-                                        <a href="https://www.linkendin.com/in/reaal" class="pl-4"><Icon class="text-2xl text-white hover:text-yellow" icon_id={IconId::BootstrapLinkedin}/></a>
+                                        <a href="https://www.linkedin.com/in/reaal" class="pl-4"><Icon class="text-2xl text-white hover:text-yellow" icon_id={IconId::BootstrapLinkedin}/></a>
                                         <a href="https://medium.com/@insightfulbit" class="pl-4"><Icon class="text-2xl text-white hover:text-yellow" icon_id={IconId::BootstrapMedium}/></a>
                                         <a href="https://www.github.com/insightfulbit" class="pl-4"><Icon class="text-2xl text-white hover:text-yellow" icon_id={IconId::BootstrapGithub}/></a>
                                         <a href="#contact" class="pl-4"><Icon class="text-2xl text-white hover:text-yellow" icon_id={IconId::LucideMail}/></a>

@@ -43,7 +43,7 @@ pub fn portfolio() -> Html {
       <h3
         class="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl"
       >
-        {"Check other projects "} <a class="text-primary underline" href="https://www.github.com/insightfulbit">{"here"}</a>
+        {"Check other projects "} <a class="text-primary underline" href="https://github.com/insightfulbit/projects">{"here"}</a>
       </h3>
     </div>
         }

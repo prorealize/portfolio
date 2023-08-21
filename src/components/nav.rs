@@ -1,9 +1,5 @@
 use yew::prelude::*;
-use yew_router::prelude::*;
 
-use crate::app::AppRoute;
-
-/// Nav component
 #[function_component(Nav)]
 pub fn nav() -> Html {
 
@@ -22,11 +18,7 @@ let links: Vec<Html> = sections
       <div>
       <div class="w-full z-50 top-0 py-3 sm:py-5  absolute">
       <div class="container flex items-center justify-between">
-        <div>
-          <Link<AppRoute> to={AppRoute::Home} classes="text-emerald-800 underline" >
-              <img class="w-12 lg:w-15" src="assets/img/logo.png" alt="InsightfulBit Logo" />
-          </Link<AppRoute>>
-        </div>
+        <div />
         <div class="hidden lg:block">
           <ul class="flex items-center">
           { for links.into_iter() }
