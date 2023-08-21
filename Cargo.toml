@@ -1,0 +1,30 @@
+[package]
+authors = ["Renato <contact@reanto.page>"]
+categories = ["wasm", "yew"]
+description = "Renato Page"
+edition = "2021"
+license = "Apache-2.0/MIT"
+name = "portfolio"
+readme = "README.md"
+repository = "https://github.com/insightfulbit/portfolio"
+version = "0.1.0"
+
+[dependencies]
+log = "0.4"
+serde = "1"
+reqwest = { version = "0.11.13", features = ["json"] }
+yew = { version = "0.20.0", features = ["csr"] }
+yew-router = "0.17.0"
+yew-hooks = "0.2.0"
+yew_icons = {version = "0.7", features = ["BootstrapLinkedin", "BootstrapMedium", "BootstrapGithub", "LucideMail", "FontAwesomeSolidChevronRight", "LucideMenu"]}
+wasm-bindgen = "0.2"
+wasm-logger = "0.2.0"
+web-sys = "0.3.64"
+
+[dev-dependencies]
+wasm-bindgen-test = "0.3"
+gloo-utils = "0.1.5"
+
+[dev-dependencies.web-sys]
+version = "0.3"
+features = ["Document", "Element", "HtmlCollection"]
